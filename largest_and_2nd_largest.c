@@ -2,9 +2,9 @@
 int main()
 {
   int arr[1000],n,max,second_max;
-  printf("Enter how many number you want ot store\n");
+  printf("Enter how many number you want to store\n");
   scanf("%d",&n);
-  printf("Now enter %d number one by one\n");
+  printf("Now enter %d number one by one\n",n);
   for(int i=0;i<n;i++)
   scanf("%d",&arr[i]);
   max=arr[0];
